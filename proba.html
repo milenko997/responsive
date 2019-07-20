@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Example | Responsive website</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+        <link href="proba.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--Start navbar -->
+        <nav class="nav-bar">
+            <img class="ikonica" src="viljuskanoz.png" alt="ikonica">
+            <h1 class="naziv">GASTROZONE</h1>
+            <div class="topnav" id="myTopnav">
+                <div class="nesto">
+                <a href="#home" class="active">Home</a>
+                <div class="dropdown">
+                        <button class="dropbtn">Downloads 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                <a href="#news">Blog</a>
+                <a href="#contact">Contact</a> 
+                <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+        <!--End navbar-->
+
+        <!--Start main content-->
+        
+        <div class="container">
+            <img class="img-banner" src="food2.jpg" alt="food">
+            <h2 class="title-img">Some Title Goes Here</h2>
+            <h3 class="title-img2">Another Title</h3>
+            <h2 class="sometitle">Title</h2>
+            <div class="main-content">
+            <article class="img-info">
+                <div class="odeljak">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In odio nisi, tempor quis nisi ut, feugiat pretium dui. Donec eu elit risus. Donec quis neque lacus.
+                        Nullam dictum lacus eu sagittis egestas. Vestibulum ut ipsum quis turpis hendrerit eleifend. Phasellus tempus lectus justo, at aliquam felis commodo et. 
+                     <br><br> <button class="contact-btn" onclick="alert('milenko.ilic997@gmail.com')">CONTACT US</button></p>
+                </div>
+            </article>
+            <img class="img-slika" src="food2.jpg" alt="slika">
+            </div>
+        </div>
+        <h2 class="naslov">Title</h2>
+        <hr class="linija">
+    </div>
+        <div class="column-layout">
+            <div class="caption">
+                <img src="inst.png" width="100px" height="100px">
+                  <h3>Instructions</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit 
+                  </p>
+                  <button class="learn-btn">Learn more</button>
+            </div>
+            <div class="caption">
+                <img src="marketing.png" width="100px" height="100px">
+                  <h3>Marketing</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit 
+                  </p>
+                  <button class="learn-btn">Learn more</button>
+            </div>
+            <div class="caption">
+                <img src="cooking.png" width="100px" height="100px">
+                  <h3>Advices</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit 
+                  </p>
+                  <button class="learn-btn">Learn more</button>
+            </div>
+            <div class="caption">
+                <img src="consulting.png" width="100px" height="100px">
+                  <h3>Consultations</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit 
+                  </p>
+                  <button class="learn-btn">Learn more</button>
+            </div>
+            <div class="caption">
+                <img src="planning.png" width="100px" height="100px">
+                  <h3>Planning</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit 
+                  </p>
+                  <button class="learn-btn">Learn more</button>
+            </div>
+        </div>
+        <h2 class="naslov">Title</h2>
+        <hr class="linija">
+        <div class="segments">
+            <div class="segment1">
+                <div class="rotate">
+                    <h2>Some Title Goes Here</h2>
+                    <p class="datum">15. 7. 2019.</p>
+                    <p class="text"> 
+                        Nullam dictum lacus eu sagittis egestas. Vestibulum ut ipsum quis turpis hendrerit eleifend. Phasellus tempus lectus justo,     at
+                        aliquam felis commodo et. Maecenas mattis neque sit amet orci viverra, eu ultrices orci rhoncus.
+                    </p>
+                    <a href="#readmore" class="readmore-link">Read more</a><br>
+                </div>
+                <div>
+                    <img src="food4.jpg" alt="food4">
+                </div>
+            </div>
+        <hr class="obicna">
+        <div class="segment2">
+            <div class="rotate">
+                <h2>Some Title Goes Here</h2>
+                <p class="datum">15. 7. 2019.</p>
+                <p class="text"> 
+                    Nullam dictum lacus eu sagittis egestas. Vestibulum ut ipsum quis turpis hendrerit eleifend. Phasellus tempus lectus justo, at
+                    aliquam felis commodo et. Maecenas mattis neque sit amet orci viverra, eu ultrices orci rhoncus.
+                </p>
+                <a href="#readmore" class="readmore-link">Read more</a><br>
+            </div>
+            <div>
+                <img src="food4.jpg" alt="food4">
+            </div>
+        </div>
+        <hr class="obicna">
+        </div>
+        <div class="btn">
+            <button class="morenews-btn">MORE NEWS</button>
+        </div>
+
+        <!--Start contact form-->
+        <div class="contact">
+            <h1>CONTACT US</h1>
+        </div>
+        <form action="" target="_blank" class="contact-form">
+            <div class="cntform">
+                <div class="cntform-flex">
+                    <input type="text" class="field" required placeholder="First name">
+                    <input type="text" class="field" required placeholder="Last name">
+                </div>
+                <div class="cntform-flex">
+                    <input type="number" class="field" required placeholder="Phone">
+                    <input type="email" class="field" required placeholder="Email">
+                </div>
+            </div>
+                <input type="text" class="subject" required placeholder="Subject">
+            <textarea name="text-area" class="text-area" id="text-area" cols="30" rows="10" placeholder="Message" required></textarea>
+            <div class="send-btn">
+                <button class="send">SEND</button>
+            </div>
+        </form>
+        <!--End contact form-->
+        <!--End of main content-->
+        <!--Start footer-->
+        <footer>
+            <div class="footer-cnt">
+                <div class="footer-img">
+                    <img src="viljuskanoz.png" alt="viljuskanoz">
+                    <h1>GASTROZONE</h1>
+                </div>
+                <div class="footer-stuffs">
+                    <ul>
+                        <h3>Links</h3>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Downloads">Downloads</a></li>
+                        <li><a href="#Blog">Blog</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <h3>News</h3>
+                        <li><a href="#Instuctions">Instuctions</a></li>
+                        <li><a href="#Marketing">Marketing</a></li>
+                        <li><a href="#Advices">Advices</a></li>
+                        <li><a href="#Consultations">Consultations</a></li>
+                        <li><a href="#Planning">Planning</a></li>
+                    </ul>
+                    <ul class="ikonice">
+                        <h3>Follow us</h3>
+                            <li><a href="https://www.facebook.com/milenko.ilic.319"><i class="fa fa-facebook-square w3-hover-opacity" ></i></a></li>
+                            <li><a href="https://www.instagram.com/_sakss_/?hl=sr"><i class="fa fa-instagram w3-hover-opacity"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/milenko-ilic-637b7915b/"><i class="fa fa-linkedin-square w3-hover-opacity"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="obicna">
+            <div class="copyright">
+                <p>
+                    Copyright <i class="fa fa-copyright" aria-hidden="true"> 2019 Milenko Ilic</i>
+                </p>
+            </div>
+        </footer>
+        <!--End footer-->
+
+        <!--JavaScript for responsive navbar, transform navbar to dropdown menu-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    </body>
+</html>
